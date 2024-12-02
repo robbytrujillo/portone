@@ -18,3 +18,50 @@
     width: 80%;
     margin-inline: auto;
 }
+
+.navbar {
+    width: 100%;
+    padding: 25px 0 25px 0;
+
+    /* navbar bergabung dengan header */
+    position: absolute;
+}
+
+.navbar .navbar-box {
+    display: flex;
+    justify-content: space-between;
+    align: center;
+}
+
+.navbar .navbar-box .logo {
+    background-color: var(--color-putih);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    -ms-border-radius: 100;
+    -o-border-radius: 100;
+
+    /* hurup logo berada di tengah */
+    display: grid;
+    place-items: center;
+}
+
+.navbar .navbar-box .logo p {
+    font-weight: bold;
+}
+
+.navbar .navbar-box .menu {
+    /* agar menu menjadi sebaris */
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    opacity: 1;
+    background-image: linear-gradient(#1b1b1b 4px, transparent 4px), linear-gradient(to right, #1b1b1b 4px, #1a1a1a 4px);
+    background-size: 80px 80px;
+}
