@@ -55,6 +55,63 @@
 .navbar .navbar-box .menu {
     /* agar menu menjadi sebaris */
     display: flex;
+
+    /* Merenggangkan menu sesuai ukuran 40px */
+    gap: 40px;
+}
+
+.navbar .navbar-box .menu li {
+    /* menghilangkan titik di menu */
+    list-style-type: none;
+}
+
+.navbar .navbar-box .menu li a {
+    /* mewarnai a nya */
+    color: var(--text-color-opacity);
+
+    /* menghilangkan underline */
+    text-decoration: none;
+}
+
+.navbar .navbar-box .social {
+    /* merenggangkan logo social */
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .navbar-box .social a{
+    /* mewarnai a nya */
+    color: var(--text-color-opacity);
+
+    /* menghilangkan underline pada logo social*/
+    text-decoration: none;
+}
+
+/* hover navbar */
+.navbar .navbar-box .menu li a:hover, 
+.navbar .navbar-box .social a:hover {
+    color: var(--text-color);
+}
+
+.hamburger {
+    padding: 0;
+    margin-left: 20px;
+    height: 24px;
+}
+
+.hamburger .hamburger-box {
+    width: 30px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
 }
 
 .header {
