@@ -68,9 +68,11 @@
 .navbar .navbar-box .menu li a {
     /* mewarnai a nya */
     color: var(--text-color-opacity);
+    
 
     /* menghilangkan underline */
     text-decoration: none;
+    font-size: 14px;
 }
 
 .navbar .navbar-box .social {
@@ -126,6 +128,17 @@
     opacity: 1;
     background-image: linear-gradient(#1b1b1b 4px, transparent 4px), linear-gradient(to right, #1b1b1b 4px, #1a1a1a 4px);
     background-size: 80px 80px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.header .header-box {
+    text-align: center;
+}
+
+.header .header-box img{
+    border-radius: 50%;
+    width: 200px;
 }
 
 @media screen and (max-width: 768px) {
