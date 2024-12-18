@@ -249,6 +249,12 @@
     left: 100px;
 }
 
+.about {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
 @media screen and (max-width: 1200px) {
     .header .header-box img {
         width: 150px;
