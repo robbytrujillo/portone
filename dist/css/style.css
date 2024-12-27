@@ -514,4 +514,12 @@
     .header .header-box h1 {
         font-size: 20px;
     }
+
+    .about .title {
+        margin-bottom: 20px;
+    }
+
+    .about .title h1 {
+        font-size: 20px;
+    }
 }
